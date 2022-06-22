@@ -91,7 +91,6 @@ header a {
 	text-decoration: none;
     display: flex;
     font-weight: 300;
-    
 }
 
 .logo {
@@ -142,9 +141,6 @@ main .sobre-nosotros{
 }
 
 .contenedor-sobre-nosotros{
-    display:inline-block;
-    justify-content:center;
-    align-items:center;
     background-color: #efefef;
     border-radius: 10px;
     padding: 30px;
@@ -171,6 +167,7 @@ main .sobre-nosotros{
     margin: auto;
     gap: 50px;
     padding: 0px 0px;
+    
 }
 
 /* home servicios */
@@ -231,8 +228,8 @@ main .sobre-nosotros{
 /*INICIA NOSOTROS */
 .container-nosotros {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     margin: 8rem;
     gap: 50px;
     padding: 10px;
@@ -511,7 +508,7 @@ main .sobre-nosotros{
 }
 /* termina menu footer */
 
-@media screen and (max-width:900px){
+@media screen and (max-width:760px){
     header{
         background-position: center;
     }
@@ -521,6 +518,10 @@ main .sobre-nosotros{
         justify-content: center;
         align-items: center;
     }
+    .container-nosotros {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .sobre-nosotros .contenido-textos{
         width: 90%;
@@ -528,6 +529,26 @@ main .sobre-nosotros{
 
     .imagen-about-us{
         width: 90%;
+    }
+
+    .grid-nosotros {
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .equipo-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .equipo-cards .card-e{
+        width: 90%;
+    }
+
+    .equipo-cards .card-e:first-child{
+        margin-bottom: 30px;
     }
 
     /* Galeria */

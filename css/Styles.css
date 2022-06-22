@@ -30,15 +30,13 @@ body {
 }
 .fondo-morado{
     background-color: #371B58;
+    color: #ffffff;
 }
 
-.fondo-contacto{
-    background-image: url(./../Images/Contacto.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fondo-blanco {
+    background-color: #f2f2f2;
 }
+
 .clearfix{
     clear: both;
 }
@@ -52,9 +50,8 @@ body {
     height: 50px;
     border-radius: 3px;
     border: 2px solid;
-    /* border-color: #7858A6; */
     padding: 0.5em 1.2em;
-    /* position: relative; */
+    
 }
 .botons:hover{
     box-shadow: 0 4px 16px #7858A6;  
@@ -73,6 +70,11 @@ body {
     font-size: 30px;
     text-align: center;
     margin: 60px;
+}
+
+.parrafo {
+    color: #ffffff;
+    text-align: center;
 }
 
 /* header - menu*/
@@ -123,7 +125,6 @@ header a {
 	border-bottom: 4px solid #ffffff;
 	padding-bottom: 10 px;
 }
-
 .logo-menu .menu{
     display: flex;
     justify-content: flex-end;
@@ -137,7 +138,7 @@ header a {
 /* INICIA HOME */
 /* home 1era seccion */
 main .sobre-nosotros{
-    padding: 30px 0 60px 0;
+    padding: 90px;
 }
 
 .contenedor-sobre-nosotros{
@@ -248,8 +249,10 @@ main .sobre-nosotros{
 .grid-nosotros h3{
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     background: #ffffff;
+    color: #371B58;
     height:200px;
     width:200px;
     border-radius:100px;
@@ -300,30 +303,15 @@ main .sobre-nosotros{
 /* FIN NOSOTROS */
 
 /* INICIA SERVICIOS */
-/* Grill servicios */
-/* .servicios {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-} */
-/* estilo tarjeta servicios */
-/* .tarjeta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 16rem;
-    height: ;
-    background-color: #371B58;
-    gap: 20px;
-    border-radius: 5px;
-} */
-
-/* .servicio-ind{
-    width: 28%;
+/* igual home servicios */
+.servicios-tap{
+    background-color: #efefef;
+    margin:auto;
     text-align: center;
-} */
+    
+}
 
+/* que dicen nuestros clientes */
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -363,8 +351,21 @@ main .sobre-nosotros{
 
 /* INICIA CONTACTO */
 
+.contacto{
+    justify-content: center;
+}
 
+.contacto h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;  
+}
 
+.form{
+    display: flex;
+    justify-content: center;
+}
 /* INICIA PORTAFOLIO */
 
 .about-services{
@@ -374,13 +375,18 @@ main .sobre-nosotros{
 
 .servicio-cont{
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .servicio-ind{
-    width: 28%;
+    width: 24%;
     text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
 }
 
 .servicio-ind img{
@@ -408,14 +414,14 @@ main .sobre-nosotros{
     background: linear-gradient(to right, #42d4ee, #642a73);
     display: flex;
     align-content: center;
-  }
+}
   
-  .module {
+.module {
     background: #f2f2f2;
     color: black;
     padding: 2rem;
     text-align: center;
-  }
+}
 
 /* FIN PORTAFOLIO */
 
@@ -669,29 +675,5 @@ main .sobre-nosotros{
         height: 90px;
     }
 
-    /* Footer */
-
-    .contenedor-footer{
-        flex-direction: column;
-        border: none;
-    }
-
-    .content-foo{
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .content-foo h4{
-        border: none;
-    }
-
-    .content-foo p{
-        color: #ccc;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
-    }
-
-    .titulo-final{
-        font-size: 20px;
-    }
+    
 }

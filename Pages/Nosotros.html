@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -101,54 +102,60 @@
         <h3 class="animate__animated animate__bounce">+ de 3 países</h3>
         <h3 class="animate__animated animate__bounce">el mejor equipo</h3>
       </section>
+      
+      <!-- Inicia Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
 
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="./../Images/Carrusel 1.jpg"
-              class="img-fluid d-block w-100 "
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./../Images/carrusel 2.jpg"
-              class="img-fluid d-block w-100 "
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./../Images/carrusel 3.jpg"
-              class="img-fluid d-block w-100 "
-              alt="..."
-            />
-          </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
+        <div class="carousel-inner">
+          <div Class=" carousel-item active">
+            <div class="overlay-image" style="background-image:url(./../Images/Carrusel\ 1.jpg);"></div> 
+            <div class="container-carousel">
+              <h1> Tittle we are like </h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptatum est quibusdam, eligendi qui totam aperiam quos incidunt cupiditate ipsam ration.</p>
+              <a href="#" class="boton-carousel btn btn-lg btn-primary">
+                Conoce más
+              </a>
+            </div>
+          </div>
+          <div Class=" carousel-item active">
+            <div class="overlay-image" style="background-image:url(./../Images/carrusel\ 2.jpg);"></div>
+            <div class="container-carousel">
+              <h1> Tittle we are like </h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptatum est quibusdam, eligendi qui totam aperiam quos incidunt cupiditate ipsam ration.</p>
+              <a href="#" class="btn btn-lg btn-primary">
+                Conoce mas
+              </a>
+            </div>
+          </div>
+          <div Class=" carousel-item active">
+            <div class="overlay-image" style="background-image:url(./../Images/carrusel\ 3.jpg);"></div>            
+            <div class="container-carousel">
+              <h1> Tittle we are like </h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptatum est quibusdam, eligendi qui totam aperiam quos incidunt cupiditate ipsam ration.</p>
+              <a href="#" class="btn btn-lg btn-primary">
+                Conoce mas
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+
       </div>
+
+      <!-- <div class="clear-fix"></div> -->
 
       <!-- Nuestro Equipo -->
       <section class="equipo">
@@ -242,6 +249,7 @@
       </div>
     </footer>
     <!-- termina footer -->
+    <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

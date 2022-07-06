@@ -1,0 +1,26 @@
+//variable color
+$color-principal: #371B58;
+$color-secundario: #7858A6;
+$color-terciario: #47B5FF;
+$color-cream: #f2f2f2;
+
+//variable color letra
+$colorW-letra: white;
+$colorB-letra: black;
+$colorP-letra: $color-principal;
+
+
+.fondo-morado{
+    background-color: #371B58;
+    color: #ffffff;
+}
+
+.titulo {
+    color: $color-principal;
+}
+
+h2{
+    color: red;
+}
+
+//gradiente

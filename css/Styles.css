@@ -21,26 +21,10 @@ body {
 }
 
 
-.fondo-inicio{
-    background-image: url(./../Images/Fondo.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.fondo-morado{
-    background-color: #371B58;
-    color: #ffffff;
-}
-
-.fondo-blanco {
-    background-color: #f2f2f2;
-}
-
 .clear-fix{
     clear: both;
 }
-.botons{
+/* .botons{
     text-align: center;
     color: #ffffff;
     font-size: 14px;
@@ -56,7 +40,7 @@ body {
 .botons:hover{
     box-shadow: 0 4px 16px #7858A6;  
     transition: all 0.2s ease;
-}
+} */
 .contenedor {
     padding: 60px 0;
     width: 90%;
@@ -66,7 +50,6 @@ body {
 }
 
 .titulo {
-    color: #642a73;
     font-size: 30px;
     text-align: center;
     margin: 60px;
@@ -78,64 +61,12 @@ body {
 }
 
 /* header - menu*/
-header {
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* height: 100%; */
-    background-color: #371B58;
-    color: #ffffff;
-    padding: 10px;
 
-}
-header a {
-	color: #ffffff;
-	text-decoration: none;
-    display: flex;
-    font-weight: 300;
-}
 
-.logo {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    align-items: end;
-}
 
-.logo-menu {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-	background: #371B58;
-    color: #ffffff;
-    padding: 10px;
-    
-}
-.logo-menu h2 {
-	font-weight: 50;
-	font-size: 18px;
-    padding-block: 10px;
-}
-.logo-menu .menu a {
-	display: inline;
-	padding: 10px;
-}
-.logo-menu .menu a:hover {
-	border-bottom: 4px solid #ffffff;
-	padding-bottom: 10 px;
-    transition-duration: 0.4s;
-}
-.logo-menu .menu{
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    padding: 0px;
-    text-align: center;
-    color: #ffffff;
-}
-/* fin header - menu */
+/* home servicios */
 
+/* FIN HOME */
 /* INICIA HOME */
 /* home 1era seccion */
 main .sobre-nosotros{
@@ -170,61 +101,6 @@ main .sobre-nosotros{
     padding: 0px 0px;
     
 }
-
-/* home servicios */
-
-.portafolio{
-    background: #f2f2f2;
-}
-
-.galeria-port{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.imagen-port{
-    width: 24%;
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-}
-
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
-    transition: transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hover-galeria img{
-    width: 50px;
-}
-
-.hover-galeria p{
-    color: #fff;
-}
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
-}
-/* FIN HOME */
 
 /*INICIA NOSOTROS */
 .container-nosotros {
@@ -286,7 +162,7 @@ main .sobre-nosotros{
     background-size: cover;
     opacity: 0.5;
 }
-
+/* 
 .boton-carousel{
     text-align: center;
     color: #ffffff;
@@ -297,7 +173,7 @@ main .sobre-nosotros{
 .boton-carousel:hover{
     box-shadow: 0 4px 16px #7858A6;  
     transition: all 0.2s ease;
-}
+} */
 
 
 
@@ -467,64 +343,7 @@ main .sobre-nosotros{
 /* FIN PORTAFOLIO */
 
 
-/* menu footer */
-.menu-footer{
-    background-color:#191919;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-}
 
-.menu-footer .grupo1{
-    width: 100%;
-    max-width: 1200px;
-    margin:auto;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 50px;
-    padding: 45px 0px;
-}
-.menu-footer .grupo1 .figure {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu-footer .grupo1 .box h4{
-    color: #ffffff;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-.menu-footer .grupo1 .box p{
-    color: #efefef;
-    margin-bottom: 10px;
-}
-.menu-footer .grupo1 .box li{
-    display: inline;
-    padding: 15px;
-}
-.menu-footer .grupo1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #ffffff;
-    margin-right: 10px;
-    background-color: #371B58;
-    text-align: center;
-    transition: all 300ms ease;
-}
-.menu-footer .grupo1 .red-social a:hover{
-    color: #47B5FF;
-}
-.menu-footer .grupo2{
-    
-    padding: 15px 10px;
-    text-align: center;
-    color: #ffffff;
-}
-/* termina menu footer */
 
 /* Media quiery */
 

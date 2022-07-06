@@ -1,0 +1,222 @@
+.fondo-morado {
+  background-color: #371B58;
+  color: #ffffff;
+}
+
+.titulo {
+  color: #371B58;
+}
+
+h2 {
+  color: red;
+}
+
+.botons, .boton-carousel {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #371B58;
+  width: 150px;
+  height: 50px;
+  border-radius: 3px;
+  border: 2px solid;
+  padding: 0.5em 1.2em;
+}
+.botons:hover, .boton-carousel:hover {
+  box-shadow: 0 4px 16px #7858A6;
+  transition: all 0.2s ease;
+}
+
+.boton-carousel {
+  text-decoration: none;
+}
+
+.fondo-morado {
+  background-color: #371B58;
+  color: #ffffff;
+}
+
+.fondo-blanco {
+  background-color: #f2f2f2;
+}
+
+.fondo-inicio {
+  background-image: url(./../Images/Fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portafolio {
+  background: #f2f2f2;
+}
+
+.galeria-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen-port {
+  width: 24%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen-port > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hover-galeria {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsla(273deg, 91%, 27%, 0.7);
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hover-galeria img {
+  width: 50px;
+}
+
+.hover-galeria p {
+  color: #fff;
+}
+
+.imagen-port:hover .hover-galeria {
+  transform: scale(1);
+}
+
+.menu-footer {
+  background-color: #191919;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.menu-footer .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 45px 0px;
+}
+.menu-footer .grupo1 .box h4 {
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.menu-footer .grupo1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.menu-footer .grupo1 .box li {
+  display: inline;
+  padding: 15px;
+}
+.menu-footer .grupo1 .box .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-right: 10px;
+  background-color: #371B58;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.menu-footer .grupo1 .box .red-social a a:hover {
+  color: #47B5FF;
+}
+.menu-footer .grupo2 {
+  padding: 15px 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100%; */
+  background-color: #371B58;
+  color: #ffffff;
+  padding: 10px;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  font-weight: 300;
+}
+
+.logo-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #371B58;
+  color: #ffffff;
+  padding: 10px;
+}
+.logo-menu .logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+}
+.logo-menu h2 {
+  font-weight: 50;
+  font-size: 18px;
+  padding-block: 10px;
+}
+.logo-menu .menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.logo-menu .menu a {
+  display: inline;
+  padding: 10px;
+}
+.logo-menu .menu a a:hover {
+  border-bottom: 4px solid #ffffff;
+  padding-bottom: 10 px;
+  transition-duration: 0.4s;
+}
+
+.contacto {
+  justify-content: center;
+}
+
+.contacto h2 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

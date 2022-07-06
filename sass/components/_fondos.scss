@@ -1,0 +1,16 @@
+.fondo-morado{
+    background-color: $color-principal;
+    color: #ffffff;
+}
+
+.fondo-blanco {
+    background-color: #f2f2f2;
+}
+
+.fondo-inicio{
+    background-image: url(./../Images/Fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

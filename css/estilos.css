@@ -1,14 +1,17 @@
-.fondo-morado {
-  background-color: #371B58;
-  color: #ffffff;
-}
-
 .titulo {
   color: #371B58;
 }
 
 h2 {
-  color: red;
+  color: white;
+}
+
+h1 {
+  color: #371B58;
+}
+
+h4 {
+  color: #7858A6;
 }
 
 .botons, .boton-carousel {
@@ -99,6 +102,41 @@ h2 {
 
 .imagen-port:hover .hover-galeria {
   transform: scale(1);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards .card {
+  background: #4d0686;
+  display: flex;
+  width: 46%;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.cards .card > .contenido-texto-card {
+  width: 60%;
+  color: #fff;
+}
+
+.cards .card > .contenido-texto-card p {
+  font-weight: 300;
+  padding-top: 5px;
 }
 
 .menu-footer {
@@ -217,6 +255,15 @@ header a {
 .form {
   display: flex;
   justify-content: center;
+}
+
+.equipo {
+  background-color: #efefef;
+}
+
+.slide-fwd-center {
+  -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 /*# sourceMappingURL=estilos.css.map */

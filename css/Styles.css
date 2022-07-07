@@ -1,11 +1,11 @@
 /* Reseteo */
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-}
+} */
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* font-family: 'Roboto', sans-serif; */
@@ -178,47 +178,7 @@ main .sobre-nosotros{
 
 
 /* equipo */
-.equipo{
-    background-color: #efefef;
-}
-.equipo-cards{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.equipo-cards .card-e {
-    background: #4d0686;
-    display: flex;
-    width: 46%;
-    height: 200%;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-}
-
-.equipo-cards .card-e img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-}
-.equipo-cards .card-e > .contenido-texto-card{
-    width: 60%;
-    color: #fff;
-}
-
-.equipo-cards .card-e > .contenido-texto-card p{
-    font-weight: 300;
-    padding-top: 5px;
-}
-
-.slide-fwd-center {
-	-webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
 /* FIN NOSOTROS */
 
 /* INICIA SERVICIOS */
@@ -230,7 +190,7 @@ main .sobre-nosotros{
 }
 
 /* que dicen nuestros clientes */
-.cards{
+/* .cards{
     display: flex;
     justify-content: space-evenly;
 }
@@ -262,7 +222,7 @@ main .sobre-nosotros{
 .cards .card > .contenido-texto-card p{
     font-weight: 300;
     padding-top: 5px;
-}
+} */
 
 /* FIN SERVICIOS */
 

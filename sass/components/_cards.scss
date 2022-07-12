@@ -2,33 +2,35 @@
 .cards{
     display: flex;
     justify-content: space-evenly;
+
+    .card {
+        background: $color-principal;
+        display: flex;
+        width: 46%;
+        height: 490px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+
+        img{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            display: block;
+        }
+        .contenido-texto-card{
+            width: 60%;
+            color: #fff;
+            p{
+                font-weight: 300;
+                padding-top: 5px;
+            } 
+        }
+    }
+
 }
 
-.cards .card{
-    background: #4d0686;
-    display: flex;
-    width: 46%;
-    height: 200px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-}
-.cards .card img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
-}
 
-.cards .card > .contenido-texto-card{
-    width: 60%;
-    color: #fff;
-}
-
-.cards .card > .contenido-texto-card p{
-    font-weight: 300;
-    padding-top: 5px;
-} 

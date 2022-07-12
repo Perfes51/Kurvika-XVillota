@@ -8,7 +8,7 @@
     height: 50px;
     border-radius: 3px;
     border: 2px solid;
-    padding: 0.5em 1.2em;
+    padding: 0.8em 1.2em;
     
     &:hover{
         box-shadow: 0 4px 16px #7858A6;  
@@ -20,6 +20,15 @@
 
 .boton-carousel {
     @extend .botons;
-    text-decoration: none;   
+    text-decoration: none;
+    border-radius: 10px;   
      
+}
+
+.boton-index {
+    @extend .botons;
+    width: 250px;
+    border-radius: 20px;
+    
+    
 }

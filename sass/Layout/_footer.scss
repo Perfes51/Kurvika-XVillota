@@ -53,3 +53,18 @@
         color: #ffffff;
     }
 }
+
+
+
+@media screen and (max-width:500px){
+    @extend .menu-footer{
+        .grupo1 {
+        
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
+            padding: 35px 0px;
+        }
+
+    }
+}
+    

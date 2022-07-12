@@ -1,0 +1,58 @@
+.tarjport {
+    background-color:$color-cream;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 1px 1px 12px 0px rgb(0,0,0,0.3);
+    max-width: 300px;
+    display: block;
+    justify-content:space-around;
+    align-items: center;   
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.titulo-port {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 12px;
+    opacity: 0.85;
+}
+
+.small {
+    font-weight: 400;
+    font-size: 12px;
+    opacity:0.75;
+}
+
+.po-card {
+    @extend .tarjport;
+    max-width: 300px;
+    margin-top: 40px;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    
+    > img {
+        @extend .avatar;
+    }
+    > h3 {
+        @extend .titulo-port;
+    } 
+    > p {
+        @extend .small;
+    }
+}
+
+

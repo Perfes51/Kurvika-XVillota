@@ -50,3 +50,10 @@
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
 }
+
+
+@media screen and (max-width:760px) {
+    .imagen-port{
+        width: 44%;
+    }
+}

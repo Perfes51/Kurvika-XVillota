@@ -13,6 +13,12 @@
         gap: 50px;
         padding: 45px 0px;
 
+        @media screen and (max-width:500px) {
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
+            padding: 35px 0px; 
+        }
+
         .box {
             h4 {
                 color: #ffffff;
@@ -56,15 +62,5 @@
 
 
 
-@media screen and (max-width:500px){
-    @extend .menu-footer{
-        .grupo1 {
-        
-            grid-template-columns: repeat(1,1fr);
-            gap: 30px;
-            padding: 35px 0px;
-        }
 
-    }
-}
-    
+

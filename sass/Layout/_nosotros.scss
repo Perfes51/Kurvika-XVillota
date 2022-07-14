@@ -43,3 +43,65 @@
 	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+/*INICIA NOSOTROS */
+.container-nosotros {
+    display: flex;
+    margin: 8rem;
+    gap: 50px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.grid-nosotros {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content:center;
+    align-items: center;
+    margin: 8rem;
+    padding: 10px;
+}
+
+.grid-nosotros h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #f2f2f2;
+    color: #371B58;
+    height:200px;
+    width:200px;
+    border-radius:100px;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: #191919;
+    color: #ffffff;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.container-carousel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* nuestro equipo */
+
+/* FIN NOSOTROS */

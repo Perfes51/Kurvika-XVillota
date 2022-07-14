@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .titulo {
   color: #371B58;
 }
@@ -16,6 +17,42 @@ h1 {
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+}
+
+/* Google font */
+/* font-family: 'Roboto', sans-serif; */
+/* imagen responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "open sans";
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 50px;
+  margin: 60px;
+}
+
+.parrafo {
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Media quiery */
@@ -67,7 +104,7 @@ h1 {
   .cards .card {
     width: 90%;
   }
-  .cards .card:first-child {
+  .cards .card first-child {
     margin-bottom: 30px;
   }
   /* servicios */
@@ -85,7 +122,6 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   .menu-footer .grupo1 {
-    /* width: 90%; */
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
     padding: 35px 0px;
@@ -222,6 +258,11 @@ h1 {
   transform: scale(1);
 }
 
+@media screen and (max-width: 760px) {
+  .imagen-port {
+    width: 44%;
+  }
+}
 .cards {
   display: flex;
   justify-content: space-evenly;
@@ -230,7 +271,8 @@ h1 {
   background: #371B58;
   display: flex;
   width: 46%;
-  height: 490px;
+  height: auto;
+  padding: 20px;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 5px;
@@ -297,6 +339,11 @@ h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 760px) {
+  .imagen-port {
+    width: 44%;
+  }
+}
 .menu-footer {
   background-color: #191919;
   color: rgb(255, 255, 255);
@@ -310,6 +357,13 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   padding: 45px 0px;
+}
+@media screen and (max-width: 500px) {
+  .menu-footer .grupo1 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding: 35px 0px;
+  }
 }
 .menu-footer .grupo1 .box h4 {
   color: #ffffff;
@@ -423,5 +477,138 @@ header a {
   -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+/*INICIA NOSOTROS */
+.container-nosotros {
+  display: flex;
+  margin: 8rem;
+  gap: 50px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.grid-nosotros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 8rem;
+  padding: 10px;
+}
+
+.grid-nosotros h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: #f2f2f2;
+  color: #371B58;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #191919;
+  color: #ffffff;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.container-carousel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 50px;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+/* nuestro equipo */
+/* FIN NOSOTROS */
+/* INICIA HOME */
+/* home 1era seccion */
+.sobre-nosotros {
+  padding: 90px;
+}
+
+.contenedor-sobre-nosotros p {
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid-chijo {
+  width: 100%;
+  background-color: #371B58;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  color: white;
+  display: grid;
+  align-items: center;
+  margin: auto;
+  gap: 50px;
+  padding: 0px 0px;
+}
+
+/* INICIA PORTAFOLIO */
+.about-services {
+  background: #f2f2f2;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.module-border-wrap {
+  max-width: 100%;
+  padding: 10px;
+  position: center;
+  background: linear-gradient(to right, #42d4ee, #642a73);
+  display: flex;
+  align-content: center;
+}
+
+.module {
+  background: #f2f2f2;
+  color: black;
+  padding: 50PX;
+  text-align: center;
+}
+
+/* FIN PORTAFOLIO */
+/* INICIA SERVICIOS */
+/* igual home servicios */
+.servicios-tap {
+  background-color: #efefef;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+  width: 60%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* FIN SERVICIOS */
 
 /*# sourceMappingURL=estilos.css.map */

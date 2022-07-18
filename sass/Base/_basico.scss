@@ -29,9 +29,31 @@ body {
     text-align: center;
     font-weight: 50px;
     margin: 60px;
+    color: $color-principal;
 }
 
 .parrafo {
     color: #ffffff;
     text-align: center;
+}
+
+h2 {
+    color: $colorW-letra;
+}
+
+h1{
+    color: $color-principal;
+}
+
+@mixin reseteo () {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+*{
+    @include reseteo ();
 }

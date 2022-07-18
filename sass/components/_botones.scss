@@ -1,4 +1,4 @@
-.botons{
+%botons{
     text-align: center;
     color: #ffffff;
     font-size: 14px;
@@ -19,14 +19,14 @@
 
 
 .boton-carousel {
-    @extend .botons;
+    @extend %botons;
     text-decoration: none;
     border-radius: 10px;   
      
 }
 
 .boton-index {
-    @extend .botons;
+    @extend %botons;
     width: 250px;
     border-radius: 20px;
     

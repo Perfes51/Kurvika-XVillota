@@ -1,0 +1,33 @@
+.sub-anexo {
+    background-color: $color-secundario;
+    padding: 100px;
+    
+}
+.cont-sub-serv {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 100px;
+   img {
+    max-width: 400px;
+    border-radius: 20px;
+
+   }
+}
+
+@media screen and (max-width:500px) {
+    .sub-anexo {
+        background-color: $color-secundario;
+        padding: 0%;
+    }
+
+
+    .cont-sub-serv{
+        display: block;
+        justify-content: center;
+        margin: 50px;
+        img{
+            max-width: 300px;
+        }
+    }
+}

@@ -47,12 +47,12 @@ header {
         color: #ffffff;
     }
 
-    .menu a {
+    a {
         display: inline;
         padding: 10px;
         
         a:hover {
-            border-bottom: 4px solid #ffffff;
+            border-bottom: 4px solid red;
             padding-bottom: 10 px;
             transition-duration: 0.4s;
         }            

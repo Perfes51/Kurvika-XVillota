@@ -1,5 +1,3 @@
-//equipo
-
 .equipo{
     background-color: #efefef;
 }
@@ -59,18 +57,18 @@
     align-items: center;
     margin: 8rem;
     padding: 10px;
-}
 
-.grid-nosotros h3{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background: #f2f2f2;
-    color: #371B58;
-    height:200px;
-    width:200px;
-    border-radius:100px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background: $color-cream;
+        color:$color-principal;
+        height:200px;
+        width:200px;
+        border-radius:100px;
+    }
 }
 
 .carousel-item {
@@ -81,27 +79,33 @@
     background-position: center;
     background-size: cover;
     text-align: center;
+
+    .overlay-image{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top:0;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+    }
+
+    .container-carousel{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 50px;
+    }
 }
 
-.container-carousel{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 50px;
+
+@media screen and (max-width:760px){
+    .grid-nosotros {
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
 }
-
-.overlay-image{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top:0;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
-
-/* nuestro equipo */
-
-/* FIN NOSOTROS */

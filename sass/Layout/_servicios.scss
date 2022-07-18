@@ -12,3 +12,35 @@
 }
 
 /* FIN SERVICIOS */
+//sub-servicios
+
+.sub-serv {
+    
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    .color-serv{
+        background-color: $color-terciario;
+        max-width: 90%; 
+        max-height: 400px;
+        border-radius: 4px;
+        padding: 16px;
+        box-shadow: black 1px 1px 12px 0px ;
+
+        h1{ 
+            color: $color-principal;
+        }
+    }
+
+    img {
+        width: 40%;
+        height: auto;
+    }
+
+    .items-serv {
+        align-items:flex-start;
+        text-align: start;
+    }
+}
+

@@ -9,36 +9,11 @@ $colorW-letra: white;
 $colorB-letra: black;
 $colorP-letra: $color-principal;
 
-.titulo {
-    color: $color-principal;
-}
-
-h2 {
-    color: $colorW-letra;
-}
-
-h1{
-    color: $color-principal;
-}
-
-@mixin reseteo () {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-*{
-    @include reseteo ();
-}
-    
-
-
 //Breackpoint
 
 $media-760: 760px;
 $media-500: 500px;
 $mediaMin-761: 761px;
+
+
 

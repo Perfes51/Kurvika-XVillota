@@ -14,15 +14,19 @@
 
 .grid-chijo{
     width: 100%;
-    background-color: #371B58;
+    background-color: $color-principal;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     text-align: center;
-    color: white;
+    color: $colorW-letra;
     align-items:center;
     margin: auto;
     gap: 50px;
     padding: 0px 0px;   
+
+    p {
+        margin: 50px;
+    }
 }
 
 

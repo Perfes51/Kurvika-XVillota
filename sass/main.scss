@@ -1,16 +1,15 @@
-//base
+/* base */
 @import "base/variables";
 @import "base/basico";
 @import "base/media-quiery";
 
-//components
+/* components */
 @import "components/botones";
 @import "components/fondos";
 @import "components/galeria";
 @import "components/cards";
 @import "components/tarjetas";
-
-//layout
+/* layout */
 @import "layout/footer";
 @import "layout/header";
 @import "layout/contacto";

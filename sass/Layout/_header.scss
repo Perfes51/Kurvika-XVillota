@@ -1,15 +1,15 @@
-//header
+/* header */
 header {
 	display: flex;
     justify-content: space-between;
     align-items: center;
     /* height: 100%; */
-    background-color: #371B58;
-    color: #ffffff;
+    background-color: $color-principal;
+    color: $colorW-letra;
     padding: 10px;
 
     a{
-        color: #ffffff;
+        color: $colorW-letra;
 	    text-decoration: none;
         display: flex;
         font-weight: 300;
@@ -20,8 +20,8 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-	background: #371B58;
-    color: #ffffff;
+	background: $color-principal;
+    color: $colorW-letra;
     padding: 10px;
 
     .logo {
@@ -44,15 +44,15 @@ header {
         align-items: end;
         padding: 0px;
         text-align: center;
-        color: #ffffff;
+        color:$colorW-letra;
     }
 
     a {
         display: inline;
         padding: 10px;
         
-        a:hover {
-            border-bottom: 4px solid red;
+        &:hover {
+            border-bottom: 4px solid $colorW-letra;
             padding-bottom: 10 px;
             transition-duration: 0.4s;
         }            

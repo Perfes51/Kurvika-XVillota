@@ -1,3 +1,6 @@
+/* base */ /* variable color */
+/* variable color letra */
+/* Breackpoint */
 /* Google font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* font-family: 'Roboto', sans-serif; */
@@ -166,6 +169,7 @@ h1 {
     height: 90px;
   }
 }
+/* components */
 .boton-index, .boton-carousel {
   text-align: center;
   color: #ffffff;
@@ -251,6 +255,7 @@ h1 {
 }
 .portafolio .contenedor .galeria-port .imagen-port .hover-galeria p {
   color: #fff;
+  text-decoration: none;
 }
 .portafolio .contenedor .galeria-port .imagen-port:hover .hover-galeria {
   transform: scale(1);
@@ -366,6 +371,7 @@ h1 {
     width: 80%;
   }
 }
+/* layout */
 .menu-footer {
   background-color: #191919;
   color: rgb(255, 255, 255);
@@ -421,17 +427,18 @@ h1 {
   color: #ffffff;
 }
 
+/* header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* height: 100%; */
   background-color: #371B58;
-  color: #ffffff;
+  color: white;
   padding: 10px;
 }
 header a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   display: flex;
   font-weight: 300;
@@ -442,7 +449,7 @@ header a {
   justify-content: center;
   width: 100%;
   background: #371B58;
-  color: #ffffff;
+  color: white;
   padding: 10px;
 }
 .logo-menu .logo {
@@ -463,14 +470,14 @@ header a {
   align-items: end;
   padding: 0px;
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 .logo-menu a {
   display: inline;
   padding: 10px;
 }
-.logo-menu a a:hover {
-  border-bottom: 4px solid red;
+.logo-menu a:hover {
+  border-bottom: 4px solid white;
   padding-bottom: 10 px;
   transition-duration: 0.4s;
 }
@@ -479,7 +486,6 @@ header a {
   justify-content: center;
 }
 .contacto h2 {
-  color: #ffffff;
   font-size: 30px;
   text-align: center;
   margin: 30px;
@@ -587,6 +593,9 @@ header a {
   margin: auto;
   gap: 50px;
   padding: 0px 0px;
+}
+.grid-chijo p {
+  margin: 50px;
 }
 
 /* INICIA PORTAFOLIO */

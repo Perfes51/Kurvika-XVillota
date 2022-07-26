@@ -1,2 +1,3 @@
 # Kurvika-Villota
-Esta es la website Kurvika usando Bootstrap en 2 pages
+Esta es mi primer sitio Web usando html css Bootstrap y sass.
+
